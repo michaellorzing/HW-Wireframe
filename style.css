@@ -2,23 +2,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: orange;
   background: teal;
-  width: 960px;
+  width: 1260px;
   font-size: 18px;
   margin: 0 auto;
+  text-align: center;
 }
 
 header, nav, section, aside, footer {
   background: pink;
   border: 3px white solid;
+  margin-bottom: 25px;
 }
 
 article {
   color: white;
   background:purple;
   border: 3px white solid;
-  width: 200px;
-  padding: 100px;
-  overflow: auto;
+  padding: 120px;
+  float: left;
 }
 
 h1, p {
@@ -34,23 +35,27 @@ nav {
 }
 
 section {
+  width: 30%;
   float: left;
-  width: 40%;
   height: 40%;
   padding: 100px;
   color: white;
   border: 3px white solid;
 }
 
-aside {
+  aside {
+  width: 10%;
+  height: 77px;
   float: right;
-  width: 40%;
-  padding: 100px;
+  padding: 260px;
   color: white;
   background: orange;
   border: 3px white solid;
 }
 
+footer{
+  margin-top: 25px;
+}
 
 .clearfix::after {
   content: "";
@@ -65,3 +70,4 @@ aside {
   padding: 20px;
   text-align: center;
 }
+
